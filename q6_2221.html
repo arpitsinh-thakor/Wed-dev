@@ -1,0 +1,54 @@
+<!--Thakor Arpitsinh
+    Uid: 20BCS2221
+    Section:20ITA-1
+    Subject:Web development-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-image: url('cuims.png');
+          background-size:cover;
+          
+          color: red;
+        }
+        
+        </style>
+    <title>q6</title>
+</head>
+<body>
+   
+    <h1>The form creation</h1>
+    <form action="/framsetDemo.html" target="_blank" method="get">
+        
+        <legned>User information</legned>
+        <fieldset>
+        <label for="fname">FIRST NAME</label><br>
+        <input type="text" id="fname" name="fname" value="Enter your first name"><br>
+        <label for="lname">LAST NAME</label><br>
+        <input type="text" id="lname" name="lname" value="Enter your last name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="name@domain.ext"><br>
+        <label for="passwd">Password</label><br>
+        <input type="password" id="passwd" name="passwd"><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="datetime-local" id="dob" name="dob"><br>
+        <legned>Gnder inforamation</legned>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <label for="resume">Resume Submission</label><br>
+        <input type="submit" id="resume" name="resume" value="Submit your Resume here"><br>
+        </fieldset>  
+        <textarea name="message" rows="10" cols="30">
+            Additional Information to be mentioned by user
+        </textarea><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+   
+</body>
+</html>
